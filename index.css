@@ -79,6 +79,21 @@ html{
     transition-duration: 1s;
 }
 
+.botonsitio{
+    background:linear-gradient(rgb(174, 165, 165),rgba(0,0,0,0),rgb(174, 165, 165));
+    border-radius: 20px;
+    padding: 10px;
+    color:#fff;
+    text-decoration:none;
+    transition-property:text-shadow;
+    transition-duration: 1s;
+    text-align:center
+}
+
+.conteiner_boton{
+    text-align: center;
+}
+
 .boton:hover{
     text-shadow: 2px 2px 7px #000;
 
@@ -161,7 +176,7 @@ html{
 }
 
 .a_integrantes{
-    color:#fff;
+    color:#ffffff;
     text-decoration: none;
     text-align: center;
 }
