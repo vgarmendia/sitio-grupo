@@ -128,7 +128,7 @@ html{
 
 .titulo_integrantes{
     text-align: center;
-    color:#000
+    color:#fff
 }
 
 .flex_container_integrantes{
@@ -245,8 +245,12 @@ html{
 /*------------------------Sitio De Proyecto---------------------------------------------------------------------------------------------------------*/
 
 .body_container_sitiodeproyecto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     font-size: 20px;
     font-family: sans-serif;
+    height: 40vh;
 }
 
 .titulo_sitiodeproyecto{
@@ -260,6 +264,14 @@ html{
 /*----------------------------Responsive-------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width:885px){
+    .header_container{
+        background-attachment:scroll;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
     .nav__ul{
         display:flex;
         justify-content: center;
